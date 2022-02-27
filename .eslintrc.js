@@ -10,5 +10,6 @@ module.exports = {
   },
   rules: {
     'class-methods-use-this': 'off',
+    'prettier/prettier': 'error',
   },
 };
