@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "nodemon src/index.js",
-    "lint": "eslint src --fix --ext .js --max-warnings=0"
+    "lint": "eslint --fix --ext .js --max-warnings=0"
   },
   "lint-staged": {
     "src/**/*": [
