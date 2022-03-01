@@ -14,5 +14,6 @@ module.exports = {
     'no-unused-vars': 'warn',
     'consistent-return': 'off',
     'no-promise-executor-return': 'off',
+    'no-console': 'off',
   },
 };
