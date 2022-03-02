@@ -15,5 +15,6 @@ module.exports = {
     'consistent-return': 'off',
     'no-promise-executor-return': 'off',
     'no-console': 'off',
+    camelcase: 'off',
   },
 };
