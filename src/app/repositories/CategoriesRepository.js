@@ -27,6 +27,15 @@ class CategoriesRepository {
 
     return row;
   }
+
+  async update(id, { name }) {
+    const [row] = await db.query(
+      'UPDATE categories SET name = $1 WHERE id = $2 RETURNING *',
+      [name, id],
+    );
+
+    return row;
+  }
 }
 
 module.exports = new CategoriesRepository();
