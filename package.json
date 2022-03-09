@@ -7,17 +7,16 @@
   "license": "MIT",
   "scripts": {
     "dev": "nodemon src/index.js",
-    "lint": "eslint --fix --ext .js --max-warnings=0"
+    "lint": "eslint src --max-warnings=0"
   },
   "lint-staged": {
-    "src/**/*": [
-      "yarn lint"
+    "src/**/*.js": [
+      "yarn lint --fix"
     ]
   },
   "dependencies": {
     "express": "^4.17.2",
-    "pg": "^8.7.3",
-    "uuid": "^8.3.2"
+    "pg": "^8.7.3"
   },
   "devDependencies": {
     "@commitlint/cli": "^16.2.1",
