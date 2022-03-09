@@ -11,10 +11,10 @@ module.exports = {
   rules: {
     'class-methods-use-this': 'off',
     'prettier/prettier': 'error',
-    'no-unused-vars': 'warn',
     'consistent-return': 'off',
     'no-promise-executor-return': 'off',
     'no-console': 'off',
+    'no-unused-vars': ['error', { argsIgnorePattern: 'next' }],
     camelcase: 'off',
   },
 };
