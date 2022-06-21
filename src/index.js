@@ -13,6 +13,6 @@ app.use((error, request, response, next) => {
   response.sendStatus(500);
 });
 
-app.listen(3000, () =>
-  console.log('Server is running at http://localhost:3000'),
+app.listen(3001, () =>
+  console.log('Server is running at http://localhost:3001'),
 );
