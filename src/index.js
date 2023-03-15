@@ -1,5 +1,6 @@
 const express = require('express');
 require('express-async-errors');
+require('dotenv').config();
 
 const routes = require('./routes');
 const cors = require('./app/middlewares/cors');
@@ -13,5 +14,5 @@ app.use(routes);
 app.use(errorHandler);
 
 app.listen(3001, () =>
-  console.log('Server is running at http://localhost:3001'),
+  console.log('Server is running at http://localhost:3000'),
 );
