@@ -31,7 +31,7 @@ $ git clone git@github.com:mateussvictor/my-contacts-api.git
 $ cd my-contacts-api
 
 # Install dependencies
-$ npm install
+$ yarn
 ```
 
 <br>
